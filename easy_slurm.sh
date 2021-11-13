@@ -1,13 +1,17 @@
 #!/bin/bash
 
-#-----------------------------------------------------------------------------------------
-# Stores versions of modules required for running common bioinformatics tools.
-# Generates 'skeleton' slurm scripts for selected software, with correct modules in place.
-#-----------------------------------------------------------------------------------------
+##########################################################################################
+#Script Name	:   Easy Slurm                                                                                          
+#Description	:   Stores versions & dependancies for HPC modules in users workflow
+#                   Quickly generates 'boilerplate' Slurm scripts for selected software
+#Args           :   Optional string pattern for returning diff versions of given software                                                                                       
+#Author       	:   Lee Bardon                                                
+#Email         	:   leerbardon@gmail.com                                           
+##########################################################################################
 
-#------------------------------------------------------------------------
-#                             ASCII ART 
-#------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+#                                       ASCII ART 
+#-----------------------------------------------------------------------------------------
 
 display_art () {
 printf ' \n
