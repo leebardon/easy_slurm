@@ -15,3 +15,17 @@
 #SBATCH --time=0:30:00 
 
 module purge
+module load gcc/8.3.0
+module load intel/18.0.4
+module load bowtie2/2.3.5.1
+module load launcher 
+
+
+export LAUNCHER_DIR=$LAUNCHER_ROOT
+export LAUNCHER_RMI=SLURM
+export LAUNCHER_PLUGIN_DIR=$LAUNCHER_DIR/plugins
+export LAUNCHER_SCHED=interleaved
+export LAUNCHER_WORKDIR=$PWD
+export LAUNCHER_BIND=1
+export LAUNCHER_JOB_FILE=ENTER_JOB_FILE_HERE
+$LAUNCHER_DIR/paramrun
