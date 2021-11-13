@@ -15,7 +15,7 @@
   <img src="images/title_image.png" alt="Logo" width="600" height="190">
   </a>
 
-<h2 align="center">Easy Slurm</h2>
+<h2 align="center"></h2>
 
   <p align="center">
     
