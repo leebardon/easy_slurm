@@ -5,7 +5,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 
 
@@ -16,21 +15,12 @@
 <!--     <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
-<h3 align="center">Easy Slurm</h3>
+<h2 align="center">Easy Slurm</h2>
 
   <p align="center">
     
-    Auto-generates Slurm scripts with the correct module and package dependancies.
+    Instantly generate Slurm scripts with the correct module and package dependancies.
     
-    Avoid the endless chore of module spider-ing and copy-pasta-ing 'module load xyz'!
-    Worry-no-more about 'finding that other script with the Launcher commands in and copy-pasta-ing'!
-    <br />
-    <a href="https://github.com/leebardon/easy_slurm"><strong>Docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/leebardon/easy_slurm/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/leebardon/easy_slurm/issues">Request Feature</a>
   </p>
 </div>
 
@@ -61,6 +51,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Easy Slurm
+
+>    Avoid the endless chore of module spider-ing and copy-pasta-ing 'module load xyz'!
+>    Worry-no-more about 'finding that other script with the Launcher commands in and copy-pasta-ing'!
 
 Easy Slurm is a HPC shell utility for quickly generating a 'skeleton' Slurm scripts. It allows the user to select the software they would like to load for their batch submission, and automatically appends the correct package dependancies to the script. The user may also choose to append a 'skeleton' sequence of Launcher lines for high throughput computing workflows.
 
