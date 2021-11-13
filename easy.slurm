@@ -5,6 +5,7 @@
 #   |    Before submitting ....                                   |
 #   |            > SET RESOURCE REQUIREMENTS                      |
 #   |            > ADJUST LAUNCHER VARIABLES (if applicable)      |
+#   |            > DON'T FORGET THE CODE! :)                      |
 #   |                                                             |
 #   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
