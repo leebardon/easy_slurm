@@ -50,7 +50,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Easy Slurm
+# Easy Slurm
 
 >       !==   Avoid the endless chore of module spider-ing and copy-pasta-ing 
 >    
@@ -85,9 +85,9 @@ Open easy_slurm.sh in your preferred text editor. At the top, there is a section
 
 ### Installation
 
-1. Clone the repo (preferably into a project utilities folder)
+1. Download the script (preferably into a project utilities folder)
    ```sh
-   git clone https://github.com/leebardon/easy_slurm.git
+   curl -L https://raw.githubusercontent.com/leebardon/easy_slurm/main/easy_slurm.sh
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -117,7 +117,7 @@ $ ./easy_slurm.sh bow
 will return all stored packages with the consecutive string pattern "bow" in the name:
 
 <div align="center">
-  <img src="images/select_package.png" alt="Packages" width="600" height="190">
+  <img src="images/select_package.png" alt="Packages" width="400" height="190">
 </div>
 
 
