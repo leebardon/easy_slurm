@@ -8,11 +8,11 @@
 <!-- [![License][license-shield]][license-url] -->
 
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT TITLE -->
 <br />
 <div align="center">
   <a href="https://github.com/leebardon/easy_slurm">
-<!--     <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+  <img src="images/title_image.png" alt="Logo" width="600" height="190">
   </a>
 
 <h2 align="center">Easy Slurm</h2>
@@ -31,7 +31,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About Easy Slurm</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -52,8 +52,10 @@
 <!-- ABOUT THE PROJECT -->
 ## Easy Slurm
 
->    Avoid the endless chore of module spider-ing and copy-pasta-ing 'module load xyz'!
->    Worry-no-more about 'finding that other script with the Launcher commands in and copy-pasta-ing'!
+>                    !==   Avoid the endless chore of module spider-ing and copy-pasta-ing  ==!
+>    
+>       !==   Fahgeddabout 'finding that other script with the Launcher commands in and copy-pasta-ing'   ==!
+
 
 Easy Slurm is a HPC shell utility for quickly generating a 'skeleton' Slurm scripts. It allows the user to select the software they would like to load for their batch submission, and automatically appends the correct package dependancies to the script. The user may also choose to append a 'skeleton' sequence of Launcher lines for high throughput computing workflows.
 
@@ -72,12 +74,14 @@ The project was written for bash 4, and has not yet been tested on other shells 
 
 Easy Slurm is currently intended to be customised by the user. That is, you must first manually add the software packages you use as part of your workflow, and the modules they depend on. You can add multiple versions of the same software. The good news is, you only need to do this once.
 
-Open easy_slurm.sh in your preferred text editor. At the top, there is a section called "Packages & Modules Hash Table". Simply add your modules and dependancies using the following format: ["module"]="dependancyX depandancyY module"
+Open easy_slurm.sh in your preferred text editor. At the top, there is a section called "Packages & Modules Hash Table". Simply add your modules and dependancies such that the module name is the key, and the depandencies are in space-delimited string format, as follows: 
+
+>     ["module_version"]="dependancy1 depandancy2 depandancyN module_version"
 
 
->                        ["samtools/1.10"]="gcc/8.3.0 samtools/1.10" 
->                        ["samtools/18.0.4"]="gcc/9.2.0 samtools/18.0.4"
->                        ["bowtie2/2.4.2"]="gcc/8.3.0 intel/19.0.4 bowtie2/2.4.2"
+<div align="center">
+  <img src="images/add_modules.png" alt="Modules" width="600" height="190">
+</div>
 
 ### Installation
 
@@ -112,6 +116,10 @@ $ ./easy_slurm.sh bow
 
 will return all stored packages with the consecutive string pattern "bow" in the name:
 
+<div align="center">
+  <img src="images/select_package.png" alt="Packages" width="600" height="190">
+</div>
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -126,7 +134,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your Changes (`git commit -m 'Added amazing feature!'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
@@ -146,14 +154,12 @@ Distributed under the MIT License. See `License.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@teatauri](https://twitter.com/teatauri) - leerbardon@gmail.com
+Lee Bardon - [@teatauri](https://twitter.com/teatauri) - leerbardon@gmail.com
 
-Project Link: [https://github.com/leebardon/repo_name](https://github.com/leebardon/easy_slurm)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+Project Link: [https://github.com/leebardon/easy_slurm](https://github.com/leebardon/easy_slurm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
