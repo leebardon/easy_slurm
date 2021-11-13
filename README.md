@@ -52,9 +52,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Easy Slurm
 
->                    !==   Avoid the endless chore of module spider-ing and copy-pasta-ing  ==!
+>       !==   Avoid the endless chore of module spider-ing and copy-pasta-ing 
 >    
->       !==   Fahgeddabout 'finding that other script with the Launcher commands in and copy-pasta-ing'   ==!
+>       !==   Fahgeddabout 'finding that other script with the Launcher commands in and copy-pasta-ing'
 
 
 Easy Slurm is a HPC shell utility for quickly generating a 'skeleton' Slurm scripts. It allows the user to select the software they would like to load for their batch submission, and automatically appends the correct package dependancies to the script. The user may also choose to append a 'skeleton' sequence of Launcher lines for high throughput computing workflows.
