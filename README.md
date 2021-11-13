@@ -5,7 +5,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-
+<!-- [![License][license-shield]][license-url] -->
 
 
 <!-- PROJECT LOGO -->
@@ -137,7 +137,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `License.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
