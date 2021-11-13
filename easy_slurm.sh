@@ -23,7 +23,7 @@ printf ' \n
 /_____/\__,_/____/\__, /   /____/_/\__,_/_/  /_/ /_/ /_/ 
                  /____/                                  
 
-------------------- FOR BIOINFORMATICS -------------------
+------------------ FOR HPC WORKFLOWS --------------------
 
 '
 }
@@ -124,6 +124,7 @@ generate_slurm () {
 #   |    Before submitting ....                                   |
 #   |            > SET RESOURCE REQUIREMENTS                      |
 #   |            > ADJUST LAUNCHER VARIABLES (if applicable)      |
+#   |            > DON'T FORGET THE CODE! :)                      |
 #   |                                                             |
 #   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
