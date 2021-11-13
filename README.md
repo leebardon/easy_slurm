@@ -85,9 +85,9 @@ Open easy_slurm.sh in your preferred text editor. At the top, there is a section
 
 ### Installation
 
-1. Download the script (preferably into a project utilities folder)
+1. Download the script (preferably into a project utilities folder) and make executable:
    ```sh
-   curl -L https://raw.githubusercontent.com/leebardon/easy_slurm/main/easy_slurm.sh
+   curl -L https://raw.githubusercontent.com/leebardon/easy_slurm/main/easy_slurm.sh > easy_slurm.sh && chmod +x easy_slurm.sh
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
