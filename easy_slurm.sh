@@ -181,9 +181,9 @@ add_launcher_lines () {
 
     # Appends Launcher-specific lines to easy.slurm
 
-    printf "module load launcher 
-
-
+    printf "module load usc hwloc
+    
+module load launcher 
 export LAUNCHER_DIR=\$LAUNCHER_ROOT
 export LAUNCHER_RMI=SLURM
 export LAUNCHER_PLUGIN_DIR=\$LAUNCHER_DIR/plugins
